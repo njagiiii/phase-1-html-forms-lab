@@ -11,7 +11,35 @@
     <h2>For all your incorporated company needs</h2>
 
     <!-- First, create a form tag where our inputs will be nested -->
+     <form action="#">
+      <div class="formgroup">
+        <label for="fullname">Fullname</label>
+        <input type="text" name="name" id="name" placeholder="Enter Name" required>
+      </div>
 
+      <div class="formgroup">
+        <label for="Email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter Email" required>
+      </div>
+
+      <div class="formgroup">
+        <label for="phonenumber">Phonenumber</label>
+        <input type="number" name="number" id="number" placeholder="Enter Telephone(optional)..">
+      </div>
+
+      <div class="formgroup">
+        <label for="message">Message</label>
+       <textarea name="message" id="" cols="30" rows="10" placeholder="Enter Message"></textarea>
+      </div>
+
+      <div class="formgroup">
+        <input type="checkbox" name="checkbox" value="choose">
+      </div>
+
+      <div class="formgroup">
+        <input type="submit" name="submit" value="submit">
+      </div>
+     </form>
 
       <!-- Add a label for 'fullname'-->
 
